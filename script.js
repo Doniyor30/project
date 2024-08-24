@@ -1,19 +1,16 @@
-const numberOfFilms = +prompt ('Сколько фильмов?', '');
+const num = 50
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors:{},
-    genres:[],
-    privat:false
-};
-
-const   a = prompt ('posledniy film'),
-        b = prompt ('ocenite'),
-        c = prompt ('posledniy film'),
-        d = prompt ('ocenite');
-
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
-
-console.log(personalMovieDB);
+switch(num) {
+    case 49:
+        console.log('error')
+        break;
+    case 100:
+        console.log('error')
+        break;
+    case 50:
+        console.log('gooo')
+        break;
+    default:
+        console.log('next time')
+        break;
+}
